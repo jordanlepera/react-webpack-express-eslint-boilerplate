@@ -36,15 +36,27 @@ For classic development usages
 ```
 yarn dev
 ```
+or
+```
+npm run dev
+```
 
 For development build
 ```
 yarn buildDev
 ```
+or
+```
+npm run buildDev
+```
 
 For production build
 ```
 yarn buildProd
+```
+or
+```
+npm run buildProd
 ```
 Production build will be located in ./dist/
 
@@ -52,15 +64,27 @@ For executing build (after production or development build)
 ```
 yarn start
 ```
+or
+```
+npm run start
+```
 
 For launching test
 ```
 yarn test
 ```
+or
+```
+npm run test
+```
 
 For launching coverage audit
 ```
 yarn coverage
+```
+or
+```
+npm run coverage
 ```
 Generated coverage data will be located in ./coverage
 
